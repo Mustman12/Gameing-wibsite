@@ -1,0 +1,307 @@
+body{
+     margin:0px;
+     padding: 0px;
+}
+
+*{
+    font-family: sans-serif;
+}
+
+div.maincontent{
+    background-image: url('https://i.imgur.com/F7Qc9TY.jpg');
+    height:850px;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+div.navbar{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background: rgba(0, 0, 0, 0.6);
+}
+div.joinnavbar{
+    background-color: black;
+
+}
+
+div.navbar a {
+    color: white;
+    margin: 24px;
+}
+
+div.navbar a.join{
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background-color: transparent;
+    color: white;
+}
+
+div.maincontent div.details{
+    text-align: center;
+    color: white;
+    padding-top: 150px;
+}
+
+div.details button{
+    padding: 10px;
+    border-radius: 8px;
+    background-color:white;
+    color: darkturquoise;
+}
+
+div.upcoming h1{
+    text-align: center;
+}
+
+div.games{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div.game{
+    text-align: center;
+}
+
+div.game div.img{
+    border-radius: 120px;
+    height:120px;
+    width: 120px;
+    background-image:url(https://i.imgur.com/iJRv5k0.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+div.game2 div.img{
+    background-image: url(https://i.imgur.com/eqCwTtQ.jpg);
+}
+
+div.game3 div.img{
+    background-image: url(https://i.imgur.com/ODEOZHo.jpg);
+}
+
+div.game4 div.img{
+    background-image: url(https://i.imgur.com/dTEng0o.jpg);
+}
+
+div.maingame{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    width: 60%;
+    margin:auto;
+    background-color: black;
+    color: white;
+    padding: 50px;
+    border-radius: 20px;
+    margin-top: 50px;
+    padding: 50px;
+    line-height: 25px;
+}
+
+div.maingame button{
+    padding: 10px;
+    border-radius: 8px;
+    background-color:aqua;
+    color: white;
+    border:none;
+}
+
+div.maingame img{
+    margin-right: -100px;
+    border-radius: 20px;
+}
+
+div.postscontent h1 div.postscontent p{
+    text-align: center;
+}
+
+div.posts{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div.post{
+   margin: 25px;
+   background-color: black;
+   color: white;
+   border-radius: 8px;
+}
+
+div.post p{
+    font-size: 15px;
+    text-align: left;
+}
+
+div.post p, div.post h5{
+    display:inline-block;
+}
+
+div.post h3, div.post p, div.post h5{
+    padding-left: 10px;
+    padding-right:10px;
+}
+
+div.post1 div.img, div.post2 div.img, div.post3 div.img{
+     background-image:url('https://i.imgur.com/LKeNJbv.jpg');
+     height: 150px;
+     background-size: cover;
+     background-position: center;
+     border-radius: 8px;
+}
+
+div.post2 div.img{
+   background-image: url('https://i.imgur.com/RECQebA.jpg');
+}
+
+div.post3 div.img{
+   background-image: url('https://i.imgur.com/DArukhp.jpg');
+}
+
+div.testis{
+    display: flex;
+    width:60%;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div.testi{
+   margin: 20px;
+   text-align: center;
+   background-color: black;
+   border-radius: 8px;
+   color: white;
+}
+
+div.testis h1{
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+div.testi div.img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background-color: white;
+    margin: auto;
+    margin-top: -60px;
+    background-image:url('https://i.imgur.com/tZ86nyd.png');
+    background-size: cover;
+    border: 1px solid black;
+}
+
+div.testi1 div.img{
+    background-image: url('https://i.imgur.com/tZ86nyd.png')
+}
+
+div.testi2 div.img{
+    background-image: url('https://i.imgur.com/OI9lQSw.png')
+}
+
+div.pricing h2{
+  text-align: center;  
+}
+
+div.prices{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+div.price{
+    width: 30%;
+    background-color: darkcyan;
+    border-radius: 8px;
+    color: black;
+    margin: 8px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+div.price button{
+    padding: 10px;
+    border-radius: 8px;
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+    
+}
+
+div.planprice{
+    background-color: black;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: white;
+}
+
+div.planprice h3{
+    margin: 0px;
+}
+
+div.joinform{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 8px;
+    justify-content: center;
+    background-color: darkgrey;
+}
+
+div.joinform .image{
+    width: 35%;
+}
+
+div.joinform .form{
+    width: 65%;
+}
+
+div.joinform .image{
+    padding: 15px;
+    height: 495px;
+    background-image:url('https://i.imgur.com/YT3jlYa.jpg');
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+form input, form button{
+   margin: 10px; 
+   padding: 10px; 
+   font-size: 16px;
+   display: block;
+   border-radius: 6px;
+   border: 0.2px solid black;
+}
+
+form{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 42px;
+}
+
+form button{
+    background-color:cadetblue;
+    color:black;
+}
+
+div.footer{
+    color: white;
+    background-color:cadetblue;
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+}
